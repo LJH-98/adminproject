@@ -11,6 +11,7 @@ public class LoginMain {
     public static void main(String[] args) {
         SpringApplication.run(LoginMain.class,args);
         System.out.println("创建分支dev");
+        System.out.println("分支添加dev");
     }
 
 }
