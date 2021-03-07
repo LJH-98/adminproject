@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasoure.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasoure.driver-class-name."
+  }
+] }

@@ -1,0 +1,15 @@
+@startuml
+ class A{
+    - String file;
+    - C c;
+    # void method()
+ }
+    interface C{
+        # void method()
+    }
+
+    ' A 实现 C
+    A ..|> C
+
+
+@enduml
