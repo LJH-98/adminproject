@@ -12,6 +12,7 @@ public class LoginMain {
         SpringApplication.run(LoginMain.class,args);
         System.out.println("创建分支dev");
         System.out.println("主干添加master");
+        System.out.println("分支添加dev");
     }
 
 }
