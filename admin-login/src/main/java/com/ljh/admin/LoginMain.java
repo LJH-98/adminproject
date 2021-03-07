@@ -1,19 +1,15 @@
 package com.ljh.admin;
 
 
-import com.auth0.jwt.interfaces.Claim;
-import com.ljh.tool.util.JwtConfig;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@SpringBootApplication
-//@MapperScan("com.ljh.admin.dao.mysql")
-//@MapperScan({"com.ljh.admin.mp.dao"})
+@SpringBootApplication
+@MapperScan("com.ljh.admin.dao.mysql")
 public class LoginMain {
-//    public static void main(String[] args) {
-//        SpringApplication.run(LoginMain.class,args);
-//    }
-public static void main(String[] args) {
-    String jwt=JwtConfig.createToken("wslwd");
-    Claim str=JwtConfig.parseToken(jwt).get("userId");
-    System.out.println(str);
-}
+    public static void main(String[] args) {
+        SpringApplication.run(LoginMain.class,args);
+    }
+
 }
