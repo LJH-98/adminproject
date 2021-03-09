@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin-consumer" />
         <module name="admin-tool" />
+        <module name="admin-provider" />
         <module name="admin-login" />
       </profile>
     </annotationProcessing>
